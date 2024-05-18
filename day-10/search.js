@@ -20,8 +20,8 @@ import { data } from "./products.js";
 
 
 // ===== linear search :: cek 1 demi 1 dari tiap data =====
-let keySearch = "iPhone";
-const products = data.products;
+// let keySearch = "iPhone";
+// const products = data.products;
 
 // manual 
 // for (let i = 0; i < products.length; i++) {
@@ -37,5 +37,9 @@ const products = data.products;
 
 // js method
 // const res = products.filter(num => num.title === keySearch);
-const res = products.filter(num => num.title.includes(keySearch));
-console.log(res.length);
+// const res = products.filter(num => num.title.includes(keySearch));
+// console.log(res.length);
+
+
+// dari data products
+// - searching product yang rating > 4.2 dan price > 80
